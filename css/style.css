@@ -1,0 +1,52 @@
+body{
+  font-family: avenir;
+}
+
+.blue{
+    color:blue;
+}
+
+h1#someid2 {
+    color:red;
+}
+
+h1.someclass2{
+  color: green;
+}
+
+h1 {
+    color:blue;
+}
+
+div.inner {
+  position: absolute;
+  left:50px;
+  top: 50px;
+}
+
+div.outer {
+  position: relative;
+  left: 50px;
+  top:100px;
+}
+ol{
+  color:green;
+  background-color: gray;
+}
+
+ol li{
+  color: yellow;
+  background-color: red;
+}
+
+ol .pretty{
+  font-family: comic;
+}
+
+ol .ugly{
+  font-family:monospace;
+}
+
+div {
+  display: inline-block;
+}
